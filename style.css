@@ -1,0 +1,171 @@
+/* *{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: cursive;
+} */
+
+.container{
+    font-family: cursive;
+}
+.clock{
+    width: 25em;
+    height: 25em;
+    position: relative;
+    /* top: 20%; */
+    margin: 0 auto;
+    border: 10px solid rgb(223, 162, 162);
+    border-radius: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dot{
+    width: 2em;
+    height: 2em;
+    background-color: #ebe6e6;
+    border-radius: 50%;
+    position: absolute;
+    top: 11.5em;
+    left: 11.4em;
+}
+
+/* numbers */
+.hour{
+    font-size: 1.5em;
+    color: #ebe6e6;
+    position: absolute;
+}
+.one{
+    top: 1em;
+    right: 3.9em;
+}
+.two{
+    top: 3.8em;
+    right: 1.2em;
+}
+.three{
+    top: 7.7em;
+    right: 0.2em;
+}
+.four{
+    top: 11.4em;
+    right: 1.3em;
+}
+.five{
+    top: 14em;
+    right: 3.9em;
+}
+.six{
+    top: 15.2em;
+    right: 7.5em;
+}
+.seven{
+    top: 14em;
+    left: 3.9em;
+}
+.eight{
+    top: 11.4em;
+    left: 1.2em;
+}
+.nine{
+    top: 7.7em;
+    left: 0.2em;
+}
+.ten{
+    top: 3.8em;
+    left: 1.2em;
+}
+.eleven{
+    top: 1em;
+    left: 3.9em;
+}
+.twelve{
+    right: 7.75em
+}
+/* .seconds .minute .hours{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: top-center;
+} */
+#minutes{
+    width: 19.8em;
+    height: 19.8em;
+    position: absolute;
+    top: 2.7em;
+    left: 2.7em;
+    border-radius: 50%;
+}
+.minute{
+    position: relative;
+}
+.minute-hand{
+    width: 0.3em;
+    height: 11.4em;
+    background-color: #ebe6e6;
+    border-radius: 0.5em;
+    position: absolute;
+    top: -0.7em;
+    left: 9.5em;
+}
+.pointing{
+    font-size: 2.3em;
+    color: #ebe6e6;
+    transform: rotate(180deg);
+    position: absolute;
+    top: -0.5em;
+    left: -6.2px;
+}
+
+
+#hours{
+    width: 15.8em;
+    height: 15.8em;
+    position: absolute;
+    top: 4.5em;
+    left: 4.5em;
+    border-radius: 50%;
+}
+.hours{
+    position: relative;
+}
+.hour-hand{
+    width: 0.3em;
+    height: 9.4em;
+    background-color: #ebe6e6;
+    border-radius: 0.5em;
+    position: absolute;
+    top: -0.7em;
+    left: 7.7em;
+}
+.pointing-hour{
+    font-size: 2.3em;
+    color: #ebe6e6;
+    transform: rotate(180deg);
+    position: absolute;
+    top: -0.5em;
+    left: -6.2px;
+}
+
+#seconds{
+    width: 17.5em;
+    height: 17.5em;
+    position: absolute;
+    top: 3.5em;
+    left: 3.8em;
+    border-radius: 50%;
+}
+.seconds{
+    position: relative;
+}
+.seconds-hand{
+    width: 0.1em;
+    height: 10em;
+    background-color: #ebe6e6;
+    border-radius: 0.5em;
+    position: absolute;
+    top: -0.9em;
+    left: 8.3em;
+}
